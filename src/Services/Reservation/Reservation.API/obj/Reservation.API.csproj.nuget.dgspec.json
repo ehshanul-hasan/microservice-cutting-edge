@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj",
+        "projectName": "Common.EventBus",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj",
+        "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OpenTelemetry.Contrib.Instrumentation.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-beta2, )"
+            },
+            "OpenTelemetry.Contrib.Instrumentation.MassTransit": {
+              "target": "Package",
+              "version": "[1.0.0-beta2, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.2.0-rc2, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.0.0-rc9, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc9, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.0.0-rc9, )"
+            },
+            "OpenTelemetry.Instrumentation.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[1.0.0-rc9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
+        "projectName": "Common.Utilities",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
+        "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj",
+        "projectName": "Reservation.API",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj",
+        "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj"
+              },
+              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
+              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

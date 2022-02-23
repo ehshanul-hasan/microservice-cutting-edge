@@ -1,0 +1,12 @@
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\bin\Debug\net6.0\Common.Infrastructure.deps.json
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\bin\Debug\net6.0\Common.Infrastructure.dll
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\bin\Debug\net6.0\ref\Common.Infrastructure.dll
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\bin\Debug\net6.0\Common.Infrastructure.pdb
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.AssemblyInfo.cs
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.dll
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\ref\Common.Infrastructure.dll
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.pdb
+C:\Users\ehshanul.hasan\Codes\R&D\TourExplorer\src\BuildingBlocks\Common.Infrastructure\obj\Debug\net6.0\Common.Infrastructure.csproj.AssemblyReference.cache
