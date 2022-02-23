@@ -1,5 +1,5 @@
-﻿using Common.Utility.Extensions;
-using Common.Utility.Helpers;
+﻿using Common.Utilities.Extensions;
+using Common.Utilities.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Net;

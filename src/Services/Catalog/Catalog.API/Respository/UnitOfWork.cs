@@ -19,13 +19,13 @@ namespace Catalog.API.Respository
         private readonly CatalogDBContext _repositoryContext;
         private readonly IDbContextTransaction _transaction;
         private readonly Dictionary<Type, object> _repositories;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        public UnitOfWork(CatalogDBContext repositoryContext, IHttpContextAccessor httpContextAccessor)
+        //private readonly IHttpContextAccessor _httpContextAccessor;
+        public UnitOfWork(CatalogDBContext repositoryContext)
         {
             _repositoryContext = repositoryContext;
             _transaction = _repositoryContext.Database.BeginTransaction();
             _repositories = new Dictionary<Type, object>();
-            _httpContextAccessor = httpContextAccessor;
+            //_httpContextAccessor = httpContextAccessor;
         }
 
         //private string CurrentUserId => _httpContextAccessor.HttpContext.User.Identity.Name;

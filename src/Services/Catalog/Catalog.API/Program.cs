@@ -1,5 +1,7 @@
 using Catalog.API.Context;
 using Catalog.API.Filters;
+using Catalog.API.Respository;
+using Catalog.API.Services;
 using Common.Logging;
 using Common.Logging.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +31,9 @@ builder.Services.AddControllers(options =>
     options.Filters.Add(typeof(UnitOfWorkCommitFilter));
     options.Filters.Add(typeof(ValidationFilter));
  });
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IPackageService, PackageService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

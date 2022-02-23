@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Catalog.API.Model.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Catalog.API.Context
 {
@@ -8,6 +9,7 @@ namespace Catalog.API.Context
         {
             Database.EnsureCreated();
         }
+        public DbSet<Package> Packages { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

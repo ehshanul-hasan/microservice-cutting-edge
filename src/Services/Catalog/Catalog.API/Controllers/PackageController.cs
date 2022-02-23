@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Catalog.API.Controllers
 {
     [ApiController]
-    [Route("api/applicant")]
+    [Route("api/package")]
     [Produces("application/json")]
     public class PackageController : ControllerBase
     {
