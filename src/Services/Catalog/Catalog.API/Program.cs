@@ -2,6 +2,7 @@ using Catalog.API.Context;
 using Catalog.API.Filters;
 using Catalog.API.Respository;
 using Catalog.API.Services;
+using Common.Infrastructure.Extensions;
 using Common.Logging;
 using Common.Logging.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,10 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// config centralized config
+
+builder.Configuration.IncorporateCentralConfiguration();
 
 // config logger
 builder.Host.UseSerilog(SeriLogger.Configure);
@@ -34,6 +39,9 @@ builder.Services.AddControllers(options =>
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IPackageService, PackageService>();
+
+// config consul
+builder.Services.RegisterConsulServices(builder.Configuration.GetServiceConfig());
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

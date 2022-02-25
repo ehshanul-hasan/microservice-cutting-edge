@@ -50,7 +50,12 @@
       "ProjectGuid": "43d9856c-0829-4e7a-ba76-1d8449ff43f4",
       "DisplayName": "Reservation.API",
       "ColorIndex": 8
+    },
+    "1c82c6be-7a12-4042-86b9-d436068216e6": {
+      "ProjectGuid": "1c82c6be-7a12-4042-86b9-d436068216e6",
+      "DisplayName": "OcelotGateway",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

@@ -1,4 +1,5 @@
 using Common.Logging;
+using Common.Logging.Extensions;
 using MassTransit;
 using Serilog;
 
@@ -14,6 +15,10 @@ builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration.GetConnectionString("RedisCacheConnection");
 });
+
+// config trace
+builder.Services.RegisterOpenTelemetry(builder.Configuration.GetValue<string>("ServiceConfig:serviceName"));
+
 
 // config rabbitmq
 builder.Services.AddMassTransit(config => {

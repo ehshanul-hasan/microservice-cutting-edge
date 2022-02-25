@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj": {}
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj",
         "projectName": "Common.EventBus",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
         "projectName": "Common.Utilities",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,14 +232,14 @@
         }
       }
     },
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj",
         "projectName": "Reservation.API",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\Reservation.API.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Reservation\\Reservation.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -256,14 +256,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj": {
-                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj"
+              "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.EventBus\\Common.EventBus.csproj"
               },
-              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               },
-              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
-                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj"
+              "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj"
               }
             }
           }

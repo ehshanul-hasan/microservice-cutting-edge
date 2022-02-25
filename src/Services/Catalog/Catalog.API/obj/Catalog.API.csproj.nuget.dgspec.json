@@ -1,17 +1,93 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
-        "projectName": "Common.Logging",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "projectName": "Common.Infrastructure",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.4, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Winton.Extensions.Configuration.Consul": {
+              "target": "Package",
+              "version": "[3.2.0-master0010, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
         "projectName": "Common.Utilities",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,14 +240,14 @@
         }
       }
     },
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,11 +264,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj"
               },
-              "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
-                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj"
+              "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
+              "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj": {
+                "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\Services\\BuildingBlocks\\Common.Utilities\\Common.Utilities.csproj"
               }
             }
           }

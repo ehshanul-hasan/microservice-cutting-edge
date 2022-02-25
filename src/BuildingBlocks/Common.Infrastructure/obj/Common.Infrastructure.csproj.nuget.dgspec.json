@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj": {}
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj",
         "projectName": "Common.Infrastructure",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\Common.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.4, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Winton.Extensions.Configuration.Consul": {
+              "target": "Package",
+              "version": "[3.2.0-master0010, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

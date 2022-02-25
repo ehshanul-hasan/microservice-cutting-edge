@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {}
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "packagesPath": "C:\\Users\\ehshanul.hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\R&D\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "outputPath": "C:\\Users\\ehshanul.hasan\\Codes\\RnD\\TourExplorer\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ehshanul.hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",

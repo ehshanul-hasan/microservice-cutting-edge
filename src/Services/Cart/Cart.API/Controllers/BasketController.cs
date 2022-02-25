@@ -41,6 +41,7 @@ namespace Cart.API.Controllers
         }
 
         [HttpPost]
+        [Route("checkout")]
         public async Task<IActionResult> Checkout([FromBody] BasketCheckout checkout)
         {
             var basket = JsonConvert.DeserializeObject<ShoppingCart>(await _redisCache.GetStringAsync(checkout.UserName));
