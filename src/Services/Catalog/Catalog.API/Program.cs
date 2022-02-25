@@ -5,6 +5,8 @@ using Catalog.API.Services;
 using Common.Infrastructure.Extensions;
 using Common.Logging;
 using Common.Logging.Extensions;
+using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -13,7 +15,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // config centralized config
-
 builder.Configuration.IncorporateCentralConfiguration();
 
 // config logger
@@ -47,6 +48,9 @@ builder.Services.RegisterConsulServices(builder.Configuration.GetServiceConfig()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHealthChecks()
+       .AddDbContextCheck<CatalogDBContext>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -59,5 +63,10 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHealthChecks("/hc", new HealthCheckOptions()
+{
+    Predicate = _ => true,
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 app.Run();

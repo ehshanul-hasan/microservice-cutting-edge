@@ -189,3 +189,8 @@ C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\
 C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\obj\Debug\net6.0\ref\Catalog.API.dll
 C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.pdb
 C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.genruntimeconfig.cache
+C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\ehshanul.hasan\Codes\RnD\TourExplorer\src\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
