@@ -1,4 +1,11 @@
-This is serving as the microservice backend for e demo TourPackage Booking system app Which is built using cutting edge technologies like
+# This project is serving as the microservice backend for a demo TourPackage Booking system Which is built using cutting edge .NET and microservice technologies.
+
+This back end is serving microfronted https://github.com/ehshanul-hasan/Micro_Frontend_Angular.git which is bult using module federation.
+
+
+![image](https://user-images.githubusercontent.com/77856935/155855477-c27168b5-6959-4306-8ec9-fb34053107ea.png)
+
+# Technologies Covered:
 
 1. .NET6
 2. Consul [Service Discovery]
@@ -13,11 +20,6 @@ This is serving as the microservice backend for e demo TourPackage Booking syste
 11. Open Telemetry with zipkin [Tracing]
 12. Health Check UI [Services Health check]
 13. Consul Key Vault [Centralized Configuration Management]
-
-This back end is serving microfronted https://github.com/ehshanul-hasan/Micro_Frontend_Angular.git which is bult using module federation.
-
-
-![image](https://user-images.githubusercontent.com/77856935/155855477-c27168b5-6959-4306-8ec9-fb34053107ea.png)
 
 
 NB: This project is a demo just for technology show down </br>
