@@ -55,7 +55,12 @@
       "ProjectGuid": "1c82c6be-7a12-4042-86b9-d436068216e6",
       "DisplayName": "OcelotGateway",
       "ColorIndex": 9
+    },
+    "6014b02b-68aa-4eb0-99e0-82ae7755a6fc": {
+      "ProjectGuid": "6014b02b-68aa-4eb0-99e0-82ae7755a6fc",
+      "DisplayName": "HealthCheck.UI",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
