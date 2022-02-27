@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCheck.UI", "..\Presentation\HealthCheck.UI\HealthCheck.UI.csproj", "{6014B02B-68AA-4EB0-99E0-82AE7755A6FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Utilities", "..\Services\BuildingBlocks\Common.Utilities\Common.Utilities.csproj", "{EE79C128-8A5E-4603-B47F-FD3D858CF4A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Utilities", "..\BuildingBlocks\Common.Utilities\Common.Utilities.csproj", "{EE79C128-8A5E-4603-B47F-FD3D858CF4A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
