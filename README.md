@@ -3,7 +3,8 @@ This project is serving as the microservice backend for a demo TourPackage Booki
 This back end is serving microfronted https://github.com/ehshanul-hasan/Micro_Frontend_Angular.git which is built using module federation.
 
 
-![image](https://user-images.githubusercontent.com/77856935/155855477-c27168b5-6959-4306-8ec9-fb34053107ea.png)
+![Architecture_Diagram vpd](https://user-images.githubusercontent.com/77856935/155949351-1867808f-5294-42b4-a5c7-026003ced5ac.jpg)
+
 
 # Technologies Covered:
 
